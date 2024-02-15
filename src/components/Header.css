@@ -1,0 +1,75 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  position: sticky;
+  padding: 5px 10px 8px 15px;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.Left-Side {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.img {
+  margin-right: 8px; /* Adjust margin as needed */
+  margin-left: 25px;
+}
+
+.img img {
+  width: 125px; /* Set a consistent width for the logo */
+  height: 30px; /* Set a consistent height for the logo */
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  background-color: #f1f3f4;
+  padding: 6px 12px;
+  border-radius: 20px;
+  width: 400px;
+}
+
+.search input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 6px 12px;
+  font-size: 14px;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-right: 8px;
+  padding-top: 7px;
+}
+
+.Right-Side {
+  display: flex;
+  align-items: center;
+}
+
+.Right-Side img {
+  width: 30px; /* Set a consistent width */
+  height: 30px; /* Set a consistent height */
+  cursor: pointer;
+  margin-right: 18px; /* Adjust margin as needed */
+}
+
+.icon {
+  width: 30px; /* Set a consistent width for other icons */
+  height: 30px; /* Set a consistent height for other icons */
+}
